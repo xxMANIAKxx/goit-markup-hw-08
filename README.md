@@ -1,1 +1,1 @@
-# goit-markup-hw-07
+Praca domowa 07 - Michał Kubit
