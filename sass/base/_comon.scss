@@ -1,0 +1,46 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --highlight-color: #2196F3;
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --basic-white: #fff;
+    --basic-black: #000;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --background: #2F303A;
+    --background-team: #F5F4FA;
+    --icon-gray: #AFB1B8;
+    --aboutus-background: rgba(47, 48, 58, 0.8);
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.03em;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.03em;
+}
+
+img {
+    display: block;
+}
