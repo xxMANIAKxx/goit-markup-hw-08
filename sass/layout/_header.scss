@@ -10,6 +10,7 @@
     line-height: 1.43;
     letter-spacing: 0.02em;
 }
+
 .navmenu-list-item div::after {
     content: "";
     position: absolute;
@@ -20,6 +21,7 @@
     left: 0px;
     background-color: var(--highlight-color);
 }
+
 .navmenu-list-link {
     color: var(--main-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -29,7 +31,6 @@
         color: var(--highlight-color);
     }
 }
-
 
 .header-email,
 .header-phone {
@@ -41,12 +42,6 @@
         color: var(--highlight-color);
     }
 }
-// .header-email:hover,
-// .header-email:focus,
-// .header-phone:hover,
-// .header-phone:focus {
-//     color: var(--highlight-color);
-// }
 
 .header .container {
     display: flex;
@@ -97,16 +92,6 @@
     }
 }
 
-// .navmenu-list-item div::after {
-//     content: "";
-//     position: absolute;
-//     width: 100%;
-//     height: 4px;
-//     border-radius: 2px;
-//     bottom: -31px;
-//     left: 0px;
-//     background-color: var(--highlight-color);
-// }
 .activ {
     color: var(--highlight-color);
 }

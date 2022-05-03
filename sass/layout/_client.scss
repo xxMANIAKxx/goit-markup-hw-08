@@ -16,10 +16,10 @@
 .client-list-item {
     display: flex;
     justify-content: center;
-}
 
-.client-list-item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .client-link {

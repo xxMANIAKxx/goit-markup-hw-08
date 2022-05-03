@@ -2,7 +2,7 @@
     background-color: var(--background-team);
 }
 
-& .container {
+.team .container {
     display: flex;
     flex-direction: column;
 }
@@ -22,6 +22,7 @@
     &:not(:last-child) {
         margin-right: 30px;
     }
+   
 }
 
 .team-figure {
