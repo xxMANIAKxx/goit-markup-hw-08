@@ -1,4 +1,5 @@
 @import "./utils/visually-hiden";
+@import "./utils/variables";
 
 @import "./base/comon";
 @import "./base/container";
@@ -13,6 +14,7 @@
 @import "./components/social-media";
 @import "./components/subbuton";
 @import "./components/_button-close";
+@import "./components/navmenu";
 
 @import "./layout/about-us";
 @import "./layout/adventages";
