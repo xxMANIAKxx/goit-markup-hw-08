@@ -1,0 +1,35 @@
+.aboutus .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus {
+    padding-bottom: 94px;
+}
+
+.aboutus-list {
+    display: flex;
+}
+
+.aboutus-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.thumb {
+    position: relative;
+}
+
+.aboutus-discription {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--aboutus-background);
+    color: var(--basic-white);
+}

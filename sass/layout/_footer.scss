@@ -1,0 +1,81 @@
+.footer{
+    background: var(--background);
+    padding: 60px 0;
+}
+.adres {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    padding-top: 20px;
+}
+
+.adres-list-item {
+    padding-bottom: 8px;
+}
+
+.adres-list-street {
+    color: var(--basic-white);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--highlight-color);
+    }
+}
+
+
+.adres-list-email,
+.adres-list-phone {
+    color: var(--footer-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus{
+            color: var(--highlight-color);
+        }
+}
+// .adres-list-email:focus,
+// .adres-list-phone:focus,
+// .adres-list-email:hover,
+// .adres-list-phone:hover {
+//     color: var(--highlight-color);
+// }
+
+.footer-sections {
+    display: flex;
+}
+
+.footer-joinus-item {
+    margin-left: 70px;
+}
+
+.dark {
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--basic-white);
+    border-radius: 50%;
+}
+
+.subscribe {
+    padding-left: 78px;
+}
+
+.send {
+    margin-left: 24px;
+}
+
+.subemail {
+    width: 358px;
+    color: var(--basic-white);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 15px;
+    outline: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--highlight-color);
+    }
+}

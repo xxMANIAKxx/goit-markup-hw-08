@@ -1,0 +1,133 @@
+.backdrop.is-hidden .modal {
+    transform: scale(2);
+}
+
+.modal {
+    width: 528px;
+    min-height: 581px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transform: scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    justify-items: center;
+}
+
+.order-txt {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    color: var(--main-color);
+    margin-top: 40px;
+    letter-spacing: 0.03em;
+    padding-bottom: 12px;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border: none;
+    padding: 0px 40px;
+}
+
+.order-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.667;
+    letter-spacing: 0.01em;
+    color: var(--secondary-color);
+}
+
+.order-field {
+    display: flex;
+    border-radius: 4px;
+    padding: 12px 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--highlight-color);
+    }
+    
+    &:hover~.order-ico,
+    &:focus~.order-ico {
+        fill: var(--highlight-color);
+    }
+}
+
+.order-coment {
+    border-radius: 4px;
+    padding: 10px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.667;
+    letter-spacing: 0.01em;
+    resize: none;
+    outline: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--highlight-color);
+    
+    }
+}
+
+.order-ico {
+    position: absolute;
+    top: 45%;
+    margin-left: 12px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.policy {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.policy-text {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+
+    &::before {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 16px;
+        border: 2px solid var(--basic-black);
+        border-radius: 2px;
+        margin-right: 8px;
+        align-self: center;
+    }
+}
+
+.policy-box:checked+.policy-text::before {
+    background-color: var(--highlight-color);
+    border: none;
+    background-image: url(../images/icon-check.svg);
+}
+
+
+.accept {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}

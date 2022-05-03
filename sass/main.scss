@@ -1,39 +1,26 @@
+@import "./utils/visually-hiden";
+
 @import "./base/comon";
- 
+@import "./base/container";
+@import "./base/section";
+@import "./base/text-format";
 
+@import "./components/backdrop";
+@import "./components/logo";
+@import "./components/button-order";
+@import "./components/order-button-modal";
+@import "./components/button-filtr";
+@import "./components/social-media";
+@import "./components/subbuton";
+@import "./components/_button-close";
 
+@import "./layout/about-us";
+@import "./layout/adventages";
+@import "./layout/client";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/front";
+@import "./layout/modal";
+@import "./layout/team";
 
-// {
-
-//     "files.autoSave": "afterDelay",
-//     "editor.formatOnPaste": true,
-//     "editor.formatOnSave": true,
-//     "editor.formatOnType": true,
-//     "[html]": {
-//         "editor.defaultFormatter": "esbenp.prettier-vscode"
-//     }
-
-//     ,
-//     "liveSassCompile.settings.autoprefix": [],
-//     "liveSassCompile.settings.excludeList": [ "**/node_modules/**",
-//     ".vscode/**"
-
-//     ],
-//     "liveSassCompile.settings.formats": [ {
-//         "format": "expanded",
-//             "extensionName": ".css",
-//             "savePath": "/css"
-//     }
-
-//     ,
-//         {
-//         "format": "compressed",
-//             "extensionName": ".min.css",
-//             "savePath": "/css"
-//     }
-
-//     ],
-//     "liveServer.settings.port": 5500,
-//     "liveSassCompile.settings.generateMap": true,
-//     "liveSassCompile.settings.includeItems": []
-// }
+@import "./pages/portfolio";
