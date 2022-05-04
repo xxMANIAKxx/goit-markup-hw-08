@@ -21,32 +21,30 @@
     <header class="header">
       <div class="container">
         <nav class="navmenu">
-          <a class="logo-link logo-dark link" href="index.html"
-            ><span class="logo-color">Web</span>Studio</a
+          <a class="logo logo--dark link" href="index.html"
+            ><span class="logo--color">Web</span>Studio</a
           >
-          <ul class="navmenu-list ul-list">
-            <li class="navmenu-list-item">
-              <div>
-                <a class="navmenu-list-link link activ" href="index.html">Agencja</a>
-              </div>
+          <ul class="navmenu ul-list">
+            <li class="navmenu__list">
+                <a class="navmenu--link link navmenu--activ" href="index.html">Agencja</a>
             </li>
-            <li class="navmenu-list-item">
-              <a class="navmenu-list-link link" href="portfolio.html">Portfolio</a>
+            <li class="navmenu__list">
+              <a class="navmenu--link link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="navmenu-list-item">
-              <a class="navmenu-list-link link" href="#">Kontakt</a>
+            <li class="navmenu__list">
+              <a class="navmenu--link link" href="#">Kontakt</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-adres-list ul-list">
+        <ul class="header__adres ul-list">
           <li header-adres-list-item list>
-            <a class="header-email link" href="mailto:info@devstudio.com"
-              ><svg class="header-icon" width="16px" height="12px">
+            <a class="header__email link" href="mailto:info@devstudio.com"
+              ><svg class="header--iconview" width="16px" height="12px">
                 <use href="images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
           </li>
           <li header-adres-list-item>
-            <a class="header-phone link" href="tel:48111111111"
-              ><svg class="header-icon" width="10px" height="16px">
+            <a class="header__phone link" href="tel:48111111111"
+              ><svg class="header--iconview" width="10px" height="16px">
                 <use href="images/icons.svg#icon-smartphone"></use></svg>+48 111 111 111</a>
           </li>
         </ul>
@@ -58,7 +56,7 @@
       <section class="front">
         <div class="container">
           <h1 class="h1-txt">efektywne rozwiązania dla waszego biznesu</h1>
-          <button class="button-order" type="button" data-modal-open>Zamów usługe</button>
+          <button class="button button--order" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
 
@@ -404,8 +402,8 @@
       <div class="container">
         <ul class="footer-sections ul-list">
           <li class="footer-adres-item">
-            <a class="logo-link logo-light link" href="index.html"
-              ><span class="logo-color link">Web</span>Studio</a
+            <a class="logo logo--light link" href="index.html"
+              ><span class="logo--color link">Web</span>Studio</a
             >
             <address class="adres">
               <ul class="adres-list ul-list">
@@ -467,7 +465,7 @@
               <label class="sub-label">
                 <input class="subemail" type="email" name="email" placeholder="E-mail" />
               </label>
-              <button class="subbuton" type="submit">
+              <button class="button button--submit" type="submit">
                 Zapisz się<svg class="send" width="24px" height="24px">
                   <use href="images/icons.svg#icon-send"></use>
                 </svg>
@@ -519,10 +517,10 @@
             </div>
             
             <div class="accept">
-                <button class="order-button-modal" type="submit">Wyślij</button>
+                <button class="button button--modal" type="submit">Wyślij</button>
             </div>
         </form>
-        <button type="button" class="close-btn" data-modal-close>X</button>
+        <button type="button" class="button button--close" data-modal-close>X</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>

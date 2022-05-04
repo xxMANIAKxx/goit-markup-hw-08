@@ -1,33 +1,27 @@
-.logo-color {
-    color: var(--highlight-color);
-}
-
-.logo-dark {
-    color: var(--basic-black);
-    margin-right: 93px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        color: var(--highlight-color);
-    }
-}
-
-.logo-light {
-    color: var(--basic-white);
-    padding-top: 60px;
-    padding-bottom: 20px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        color: var(--highlight-color);
-    }
-}
-
-.logo-link {
+.logo {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--highlight-color);
+    }
+}
+
+.logo--color {
+    color: var(--highlight-color);
+}
+
+.logo--dark {
+    color: var(--basic-black);
+    margin-right: 93px;   
+}
+
+.logo--light {
+    color: var(--basic-white);
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
