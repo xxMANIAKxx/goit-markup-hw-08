@@ -1,11 +1,11 @@
-.adventages-discription {
+.adventages__discription {
     font-size: 14px;
     line-height: 1.714;
     color: var(--secondary-color);
     padding-top: 10px;
 }
 
-.advantages-list {
+.advantages {
     display: flex;
     justify-content: space-between;
 }
@@ -15,7 +15,7 @@
     max-width: 270px;
 }
 
-.advantages-background {
+.advantages--background {
     background-color: var(--background-team);
     display: flex;
     justify-content: center;

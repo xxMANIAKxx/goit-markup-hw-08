@@ -2,19 +2,19 @@
     padding-bottom: 94px;
 }
 
-.aboutus-list {
+.aboutus__list {
     display: flex;
-}
 
-.aboutus-list-item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .thumb {
     position: relative;
 }
 
-.aboutus-discription {
+.thumb--discription {
     position: absolute;
     width: 100%;
     bottom: 0px;
