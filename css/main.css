@@ -62,45 +62,28 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding: 0px 15px;
   align-items: center;
   margin: 0 auto;
 }
 
-.header .container {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
 }
 
-.aboutus .container {
-  display: flex;
-  flex-direction: column;
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 
-.adventages .container {
-  display: flex;
-}
-
-.client .container {
-  display: flex;
-  flex-direction: column;
-}
-
-.front .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.team .container {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-portfolio .container {
-  display: flex;
-  flex-direction: column;
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .section {
@@ -547,13 +530,37 @@ img {
   fill: currentColor;
 }
 
-.front {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background: var(--background);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bgimg/mainbg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+@media screen and (min-width: 480px) {
+  .front {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: var(--background);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/bgimg/front-bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .front {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: var(--background);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bgimg/mainbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .front {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: var(--background);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bgimg/mainbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .backdrop.is-hidden .modal {
