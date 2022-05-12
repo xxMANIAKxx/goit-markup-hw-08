@@ -1,8 +1,14 @@
 .social-media {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 32px 30px 32px;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+.social-media--item{
+    &:not(:last-child) {
+            margin-right: 10px;
+        }
 }
 
 .social-media__link {
@@ -41,4 +47,21 @@
 .social-media__link--dark {
     background-color: rgba(255, 255, 255, 0.1);
     fill: var(--basic-white);
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:1199px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .social-media {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 32px 30px 32px;
+        }
 }

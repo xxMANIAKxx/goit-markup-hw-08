@@ -44,8 +44,14 @@
 }
 
 @media screen and (max-width: 767px) {
-.team__list {
+    .team__list {
         flex-direction: column;
+    }
+
+    .team__list--item {
+        &:last-child {
+            margin-bottom: 60px;
+            }
     }
 }
 
