@@ -1,27 +1,31 @@
 .h1-txt {
-    padding-bottom: 30px;
-    width: 696px;
+    width: 365px;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
+    font-size: 26px;
+    line-height: 1.615;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--basic-white);
     text-transform: uppercase;
+    padding-bottom: 30px;
 }
+
 .h2-txt {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.167;
-    text-align: center;
-    padding-bottom: 50px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.179;
+        text-align: center;
+        color: var(--main-color);
+        padding-bottom: 30px;
 }
 .h5-txt {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.143;
     text-transform: uppercase;
+    text-align: center;
 }
+
 .h6-txt {
     font-weight: 700;
     font-size: 14px;
@@ -29,4 +33,22 @@
     text-transform: uppercase;
     color: var(--basic-white);
     padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    .h1-txt {
+        width: 696px;
+        font-size: 44px;
+        line-height: 1.364;
+    }
+
+    .h2-txt{
+        font-size: 36px;
+        line-height: 1.167;
+        padding-bottom: 50px;
+    }
+
+    .h5-txt {
+        text-align: start;
+    }
 }

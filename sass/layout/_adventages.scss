@@ -1,18 +1,12 @@
-.adventages__discription {
-    font-size: 14px;
-    line-height: 1.714;
-    color: var(--secondary-color);
-    padding-top: 10px;
-}
-
 .advantages {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .advantages__list {
     align-items: center;
-    max-width: 270px;
+    max-width: 450px;
+    margin-bottom: 30px;
 }
 
 .advantages--background {
@@ -20,13 +14,66 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     border-radius: 4px;
     margin-bottom: 30px;
+}
+
+.adventages__discription {
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--secondary-color);
+    padding-top: 10px;
 }
 
 .advantages__icons {
     width: 70px;
     height: 70px;
 }
+
+@media screen and (max-width: 767px) {
+.advantages__list {
+        align-items: center;
+        max-width: 450px;
+
+        &:last-child {
+                margin-bottom: 60px;
+            }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1199px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+// .advantages__list {
+//     align-items: center;
+//     max-width: 270px;
+// }
+
+// .advantages--background {
+//     background-color: var(--background-team);
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 270px;
+//     height: 120px;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+// }
+
+// .adventages__discription {
+//     font-size: 14px;
+//     line-height: 1.714;
+//     color: var(--secondary-color);
+//     padding-top: 10px;
+// }

@@ -1,25 +1,23 @@
-@media screen and (min-width: 480px) {
+.front {
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
     .front {
-        padding-top: 200px;
-        padding-bottom: 200px;
-        background: var(--background);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url("../images/bgimg/front-bg-mobile.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1199px) {
     .front {
-        padding-top: 200px;
-        padding-bottom: 200px;
-        background: var(--background);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url("../images/bgimg/mainbg.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+            url("../images/bgimg/front-bg-tablet.jpg");
         }
 
 }
@@ -28,11 +26,8 @@
     .front {
         padding-top: 200px;
         padding-bottom: 200px;
-        background: var(--background);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url("../images/bgimg/mainbg.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+            url("../images/bgimg/front-bg-desktop.jpg");
     }
 
 }
