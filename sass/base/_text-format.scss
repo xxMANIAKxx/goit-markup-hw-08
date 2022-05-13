@@ -33,6 +33,7 @@
     text-transform: uppercase;
     color: var(--basic-white);
     padding-bottom: 20px;
+    text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
@@ -49,6 +50,10 @@
     }
 
     .h5-txt {
+        text-align: start;
+    }
+
+    .h6-txt{
         text-align: start;
     }
 }

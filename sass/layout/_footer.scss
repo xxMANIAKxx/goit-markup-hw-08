@@ -13,6 +13,7 @@
     font-size: 14px;
     line-height: 1.714;
     padding-top: 20px;
+    text-align: center;
 }
 
 .adres--item {
@@ -35,7 +36,16 @@
     }
 }
 
+
 @media screen and (max-width: 767px) {
+    .footer--sections {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    .footer__joinus {
+        margin-top: 60px;
+    }
 
 }
 
@@ -45,6 +55,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .footer__adres--text {
+        text-align: start;
+    }
 
     .footer__joinus {
             margin-left: 70px;
