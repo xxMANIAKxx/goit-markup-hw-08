@@ -1,4 +1,5 @@
 .logo {
+    display: flex;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 24px;
@@ -9,6 +10,12 @@
     &:focus {
         color: var(--highlight-color);
     }
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo--color {
@@ -39,6 +46,10 @@
             font-size: 26px;
             line-height: 1.192;
         }
+
+    .footer__logo {
+        align-items: start;
+    }
 
         .logo--dark {
             margin-right: 93px;

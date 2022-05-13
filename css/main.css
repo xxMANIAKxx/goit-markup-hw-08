@@ -173,6 +173,7 @@ img {
 }
 
 .logo {
+  display: flex;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 24px;
@@ -182,6 +183,12 @@ img {
 
 .logo:hover, .logo:focus {
   color: var(--highlight-color);
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo--color {
@@ -201,6 +208,9 @@ img {
   .logo {
     font-size: 26px;
     line-height: 1.192;
+  }
+  .footer__logo {
+    align-items: start;
   }
   .logo--dark {
     margin-right: 93px;
@@ -386,7 +396,7 @@ img {
 }
 
 .subemail {
-  width: 358px;
+  width: 450px;
   color: var(--basic-white);
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -395,10 +405,17 @@ img {
   padding: 15px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 20px;
 }
 
 .subemail:hover, .subemail:focus {
   border-color: var(--highlight-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .subemail {
+    width: 358px;
+  }
 }
 
 .aboutus {
@@ -601,6 +618,18 @@ img {
   color: var(--highlight-color);
 }
 
+.footer__subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 767px) {
   .footer--sections {
     flex-direction: column;
@@ -620,6 +649,9 @@ img {
   }
   .footer__subscribe {
     padding-left: 78px;
+  }
+  .signup {
+    display: inline-block;
   }
 }
 
@@ -669,6 +701,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .front {
+    margin-bottom: 60px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bgimg/front-bg-mobile.jpg");
   }
 }
