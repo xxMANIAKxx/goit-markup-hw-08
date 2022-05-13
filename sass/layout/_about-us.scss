@@ -28,3 +28,9 @@
     background-color: var(--aboutus-background);
     color: var(--basic-white);
 }
+
+@media screen and (max-width: 1199px){
+    .aboutus{
+        display: none;
+    }
+}

@@ -52,6 +52,15 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .advantages__list {
+        align-items: center;
+        max-width: 270px;
+        }
+        
+    .advantages--background {
+        width: 270px;
+    }
 }
 
 
