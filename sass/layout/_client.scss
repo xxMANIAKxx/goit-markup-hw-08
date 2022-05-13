@@ -4,20 +4,20 @@
 
 .client-list {
     display: flex;
-    justify-content: center;
-    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-.client-list-item {
+.client-list__item {
     display: flex;
     justify-content: center;
-
-    &:not(:last-child) {
-        margin-right: 30px;
-    }
+    margin-bottom: 30px;
+    
 }
 
-.client-link {
+.client__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,3 +36,73 @@
         border-color: var(--highlight-color);
     }
 }
+
+@media screen and (max-width: 767px) {
+    .client__link {
+        height: 92px;
+        width: 210px;
+        
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1199px) {
+    .client__link {
+        height: 92px;
+        width: 226px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .client-list {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+    .client-list__item {
+            justify-content: center;
+    
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+        }
+}
+
+
+// .client {
+//     padding-bottom: 94px;
+// }
+
+// .client-list {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+// .client-list__item {
+//     display: flex;
+//     justify-content: center;
+
+//     &:not(:last-child) {
+//         margin-right: 30px;
+//     }
+// }
+
+// .client__link {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 92px;
+//     width: 170px;
+//     fill: var(--icon-gray);
+//     border: 1px solid var(--icon-gray);
+//     border-radius: 4px;
+//     transition-property: fill, background-color, border-color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//         fill: var(--highlight-color);
+//         border-color: var(--highlight-color);
+//     }
+// }
