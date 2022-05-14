@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/main.min.css" />
@@ -26,10 +30,10 @@
           >
           <ul class="navmenu ul-list">
             <li class="navmenu__list">
-                <a class="navmenu--link link" href="index.html">Agencja</a>
+                <a class="navmenu--link link navmenu--activ" href="index.html">Agencja</a>
             </li>
             <li class="navmenu__list">
-              <a class="navmenu--link link navmenu--activ" href="portfolio.html">Portfolio</a>
+              <a class="navmenu--link link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="navmenu__list">
               <a class="navmenu--link link" href="#">Kontakt</a>
@@ -48,6 +52,50 @@
                 <use href="images/icons.svg#icon-smartphone"></use></svg>+48 111 111 111</a>
           </li>
         </ul>
+      </div>
+      <!-- mobile menu -->
+      <button class="burger-btn" type="button" data-menu-open>
+        <svg class="burger-btn__icon" width="24" height="16">
+          <use href="./images/icons.svg#icon-mobile-menu"></use>
+        </svg> 
+      </button>
+      <div class="mobile-menu" data-menu>
+        <button class="mobile-menu__close-btn" type="button" data-menu-close>
+          <svg class="mobile-menu__icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-mobile-menu-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav__list ul-list">
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link link " href="index.html">Agencja</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link link" href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <div class="mobile-contacts">
+          <a class="mobile-phone link" href="tel:+48111111111">
+            +48 111 111 111</a>
+          <a class="mobile-email link" href="mailto:info@devstudio.com">
+            info@devstudio.com</a>
+        </div>
+        <ul class="mobile-social__list ul-list">
+          <li class="mobile-social__item"><a class="mobile-social__link link" href="#">Instagram</a>
+          </li>
+          <li class="mobile-social__item"><a class="mobile-social__link link" href="#">Twitter</a>
+          </li>
+          <li class="mobile-social__item"><a class="mobile-social__link link" href="#">Facebook</a>
+          </li>
+          <li class="mobile-social__item"><a class="mobile-social__link link" href="#">LinkedIn</a>
+          </li>
+        </ul>
+      
       </div>
     </header>
 
@@ -340,5 +388,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
