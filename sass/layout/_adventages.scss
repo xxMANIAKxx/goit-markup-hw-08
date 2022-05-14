@@ -1,6 +1,7 @@
 .advantages {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -46,16 +47,23 @@
 
 @media screen and (min-width: 768px) and (max-width:1199px) {
 
-}
+    
+        .advantages__list {
+            max-width: 354px;
 
-@media screen and (min-width: 1200px) {
-    .advantages {
-        display: flex;
-        justify-content: space-between;
+            &:last-child {
+                    margin-bottom: 45px;
+                }
+        }
+    
+        .advantages--background {
+            width: 354px;
+    
+        }
     }
 
+@media screen and (min-width: 1200px) {
     .advantages__list {
-        align-items: center;
         max-width: 270px;
         }
         
