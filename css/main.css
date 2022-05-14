@@ -208,6 +208,13 @@ img {
   color: var(--basic-white);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__logo {
+    padding-right: 144px;
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .logo {
     font-size: 26px;
@@ -589,6 +596,8 @@ img {
 
 .footer--sections {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer__adres--text {
