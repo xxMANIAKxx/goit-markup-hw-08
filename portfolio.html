@@ -19,7 +19,7 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
+      <div class="container flex">
         <nav class="navmenu">
           <a class="logo logo--dark link" href="index.html"
             ><span class="logo--color">Web</span>Studio</a
@@ -53,8 +53,8 @@
 
     <main class="main-portfolio">
       <!-- filter buttons -->
-      <section class="filter section">
-        <div class="container">
+      <section class="filtr section">
+        <div class="container filtr">
           <ul class="filtr__list ul-list">
             <li class="filtr--item">
               <button class="button button--filtr" type="button">Wszystkie</button>
@@ -266,7 +266,7 @@
     <footer class="footer">
       <div class="container">
         <ul class="footer--sections ul-list">
-          <li>
+          <li class="footer__logo">
             <a class="logo logo--light link" href="index.html"
               ><span class="logo--color link">Web</span>Studio</a
             >
@@ -326,15 +326,15 @@
           </li>
           <li class="footer__subscribe">
             <h6 class="h6-txt">Zapisz się do newslettera</h6>
-            <form name="signup_form" autocomplete="off" formvalidate>
+            <form class="signup" name="signup_form" autocomplete="off" formvalidate>
               <label>
                 <input class="subemail" type="email" name="email" placeholder="E-mail" />
               </label>
-              <button class="button button--submit" type="submit">
-                Zapisz się<svg class="button--send-ico" width="24px" height="24px">
-                  <use href="images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
+                <button class="button button--submit" type="submit">
+                  Zapisz się<svg class="button--send-ico" width="24px" height="24px">
+                    <use href="images/icons.svg#icon-send"></use>
+                  </svg>
+                </button>
             </form>
           </li>
         </ul>
