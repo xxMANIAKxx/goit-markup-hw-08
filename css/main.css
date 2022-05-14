@@ -774,7 +774,7 @@ img {
 }
 
 .modal {
-  width: 528px;
+  width: 450px;
   min-height: 581px;
   background-color: #ffffff;
   position: relative;
@@ -895,6 +895,13 @@ img {
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .team {
