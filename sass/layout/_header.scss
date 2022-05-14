@@ -1,6 +1,5 @@
 .header {
     border: 1px solid #ECECEC;
-    margin-bottom: 60px;
 }
 
 .header__email,
@@ -31,7 +30,10 @@
 
 
 @media screen and (max-width: 767px) {
-    
+    .header__email,
+    .header__phone {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width:1199px) {
