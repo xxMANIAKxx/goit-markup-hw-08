@@ -94,7 +94,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width:1199px) {
+    .project__item {
+        width: 354px;
+    }
 
+    .filtr--item {
+            margin-bottom: 30px;
+        }
 }
 
 @media screen and (min-width: 1200px) {

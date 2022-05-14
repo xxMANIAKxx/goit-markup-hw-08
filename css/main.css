@@ -200,6 +200,8 @@ img {
 .logo--dark {
   color: var(--basic-black);
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo--light {
@@ -659,20 +661,14 @@ img {
 
 .header {
   border: 1px solid #ECECEC;
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-bottom: 60px;
-}
-
-.header__email {
-  margin-right: 50px;
 }
 
 .header__email,
 .header__phone {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.43;
+  font-size: 12px;
+  line-height: 1.167;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -694,9 +690,26 @@ img {
   fill: currentColor;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__adres {
+    flex-direction: column;
+  }
+  .header__adres--item:last-child {
+    margin-top: 10px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .header {
     margin-bottom: 0px;
+  }
+  .header__email {
+    margin-right: 50px;
+  }
+  .header__email,
+  .header__phone {
+    font-size: 14px;
+    line-height: 1.43;
   }
 }
 
@@ -1019,6 +1032,15 @@ img {
 @media screen and (max-width: 767px) {
   .project__list {
     margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .project__item {
+    width: 354px;
+  }
+  .filtr--item {
+    margin-bottom: 30px;
   }
 }
 

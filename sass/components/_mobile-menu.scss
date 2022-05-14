@@ -1,0 +1,129 @@
+// .burger-btn {
+//     background-color: transparent;
+//     border: none;
+//     position: absolute;
+//     top: 10px;
+//     right: 15px;
+//     line-height: 0;
+//     padding: 0;
+
+//     &:hover,
+//     &:focus {
+//         fill: --highlight-color;
+//     }
+// }
+
+// .mobile-menu__close-btn {
+//     background-color: transparent;
+//     border: none;
+//     position: absolute;
+//     top: 10px;
+//     right: 15px;
+
+//     &:hover,
+//     &:focus {
+//         fill: --highlight-color;
+//     }
+// }
+
+// @media screen and (max-width: 767px) {
+//     .mobile-menu {
+//         display: flex;
+//         flex-direction: column;
+//         position: fixed;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         z-index: 1;
+//         padding: 48px 40px;
+//         background-color: --basic-white;
+//         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+//             0px 1px 3px rgba(0, 0, 0, 0.16);
+//         transform: translateX(100%);
+//         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//     }
+
+//     .mobile-menu.is-open {
+//         transform: translateX(0);
+//     }
+
+//     .mobile-nav {
+//         flex-grow: 1;
+//     }
+// }
+
+// @media screen and (min-width: 768px) {
+
+//     .mobile-menu,
+//     .burger-btn {
+//         display: none;
+//     }
+// }
+
+// .mobile-nav__item:not(:last-child) {
+//     margin-bottom: 32px;
+// }
+
+// .mobile-nav__link {
+//     font-weight: 500;
+//     font-size: 40px;
+//     line-height: 1.175;
+//     letter-spacing: 0.02em;
+//     color: --highlight-color;
+
+//     &:hover,
+//     &:focus {
+//         color: --highlight-color;
+//     }
+// }
+
+// .mobile-contacts {
+//     margin-bottom: 64px;
+// }
+
+// .mobile-email,
+// .mobile-phone {
+//     font-weight: 500;
+//     font-size: 24px;
+//     line-height: 1.666;
+//     letter-spacing: 0.02em;
+//     color: --secondary-color;
+
+//     &:hover,
+//     &:focus {
+//         font-size: 34px;
+//         line-height: 1.176;
+//         color: --highlight-color;
+//     }
+// }
+
+// .mobile-phone {
+//     display: block;
+//     margin-bottom: 32px;
+// }
+
+// .mobile-social__list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin: -5px;
+// }
+
+// .mobile-social__link {
+//     font-weight: 500;
+//     font-size: 18px;
+//     line-height: 1.222;
+//     letter-spacing: 0.02em;
+//     color: --highlight-color;
+// }
+
+// .mobile-social__item {
+//     margin: 5px;
+//     padding: 0 10px;
+//     border-right: 1px solid rgba(33, 33, 33, 0.2);
+// }
+
+// .mobile-social__item:last-child {
+//     border: none;
+//     padding-right: 0;
+// }
