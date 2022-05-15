@@ -421,8 +421,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .social-media {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0px 32px 30px 32px;
   }
@@ -626,7 +624,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 450px;
+  max-width: 450px;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
