@@ -4,7 +4,6 @@
 
 .team__list {
     display: flex;
-    flex-direction: column;
 }
 
 .team__list--item {
@@ -45,6 +44,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .team__list {
+        flex-direction: column;
+    }
     .team__list--item {
         &:last-child {
             margin-bottom: 60px;
@@ -63,6 +65,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .team__list{
+        flex-direction: row;
+    }
     .team__list--item {
         width: 270px;
         margin-bottom: 94px;
