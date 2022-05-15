@@ -645,6 +645,9 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .advantages {
+    justify-content: center;
+  }
   .advantages__list {
     align-items: center;
     max-width: 450px;
